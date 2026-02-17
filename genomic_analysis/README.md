@@ -22,6 +22,7 @@ Output: merged FASTQ.gz files in `merged_files/`
 
 **Script:** `alignment.sh`
 
+Scripts are based on those of Clare Abreu/Grant Kinsler, found [here](https://github.com/clare-abreu/gatk_WGS_pipeline/).
 Submitted as a SLURM array job; each task processes one sample.
 
 1. **Align** paired-end reads to the S288C R64-3-1 reference genome with `bwa mem`.
