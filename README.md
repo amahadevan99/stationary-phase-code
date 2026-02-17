@@ -28,8 +28,8 @@ Raw genomic sequencing data are deposited at [external archive — DOI TBD].
 | Tool | Purpose |
 |---|---|
 | [bartender](https://github.com/LaoZZZZZ/bartender-1.1) | Barcode extraction and clustering |
-| FitSeq2 (modified) | Primary fitness inference from barcode trajectories |
-| FitMut2 | Alternative fitness inference |
+| [FitSeq2](https://github.com/FangfeiLi05/FitSeq2) | Fitness inference from fitness measurement trajectories with adaptive mutants |
+| [FitMut2](https://github.com/FangfeiLi05/FitMut2) | Fitness inference from experimental evolutions |
 | [BWA](https://github.com/lh3/bwa) | Short-read alignment to reference genome |
 | [Samtools](http://www.htslib.org/) | BAM manipulation and depth calculation |
 | [Picard](https://broadinstitute.github.io/picard/) | Read group annotation and duplicate marking |
