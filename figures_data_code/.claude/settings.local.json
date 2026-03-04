@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /Users/default/Library/CloudStorage/Dropbox/cerevisiae_analysis/stationary_phase_ms_draft/fitseq2_output/*.csv)",
+      "Bash(python:*)",
+      "Bash(Rscript:*)"
+    ]
+  }
+}

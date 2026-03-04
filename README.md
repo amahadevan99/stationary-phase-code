@@ -6,6 +6,16 @@ This repository contains the data processing scripts used in our study of adapti
 
 ```
 stationary_phase_repo/
+├── figures_data_code/          # Data and scripts needed to generate all paper figures
+│   ├── R_scripts/              # R scripts for figure generation
+│   ├── python_scripts/         # Python scripts for data processing and figures
+│   ├── R_data/                 # Final fitness data with genotypes attached (input to R scripts)
+│   ├── python_data/            # Processed data files (input to Python scripts)
+│   ├── fitseq2_input/          # FitSeq2 input count files
+│   ├── fitseq2_output/         # FitSeq2 results
+│   ├── fitmut_input/           # FitMut input count files (filtered, unfiltered, params)
+│   ├── fitmut_output_filtered/ # FitMut results
+│   └── T0_counts_aggregated/   # Aggregated T0 counts
 ├── barcode_analysis/
 │   ├── barcode_counting/       # Demultiplex reads, extract & cluster barcodes; map clones to fitness
 │   ├── fitness_remeasurement/  # Independent fitness remeasurement pipeline for selected clones
@@ -16,6 +26,8 @@ stationary_phase_repo/
     ├── coverage_analysis/      # Per-position and per-gene coverage; structural variant detection
     └── barcode_from_wgs/       # QC: recover barcode from WGS reads
 ```
+
+See `figures_data_code/data_files_README.md` for detailed descriptions of the data files.
 
 See `barcode_analysis/README.md` and `genomic_analysis/README.md` for step-by-step pipeline descriptions.
 
